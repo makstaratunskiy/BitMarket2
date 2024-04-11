@@ -1,0 +1,221 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+h1::before {
+    content: url(/uploads/2021/03/h1_play_0_1614940696.svg);
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+h1::after {
+    content: url(/uploads/2021/03/h1_play_0_1614940696.svg);
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+
+}
+
+h2:hover {
+    color: white;
+    margin-left: 30px;
+}
+
+.pozic {
+    position: relative;
+    color: red;
+
+}
+
+.pozic:hover {
+    color: white;
+    margin-left: 30px;
+}
+
+
+
+.HIT {
+    display: block;
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 50px;    
+}
+
+.HIT:hover {
+    border: 7px dotted rgb(255, 98, 0);
+    border-radius: 60%;
+    width: 180px;
+    box-shadow: 5px 5px 3px 0 lightgrey;
+
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.post-text:hover {
+    margin-left: 30px;
+    color: black;
+}
+
+
+.post-text, h2:hover {
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.post:hover {
+    background-color: #36bbce;
+    position: relative;
+    
+    padding-top: px;
+    
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.article-but:hover {
+    background-color: white;
+    color: #133aac;
+    border: 5px solid #133aac;
+    box-shadow: 5px 5px 2px 0 lightgrey;
+}
+
+.full-image {
+    margin: 10px 0px 10px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+    
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+    
+}
+
+.f {
+    position: fixed;
+    float: right;
+    right: 0px;
+    top: 40%;
+    background-color: #7000ff;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 10px;
+    color: white;
+    width:  90px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+.address::before {
+    content: url(https://cdn-icons-png.flaticon.com/128/1756/1756719.png);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    padding-right: 80px;
+   
+}
+
+.tel::before {
+    content: url();
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+
