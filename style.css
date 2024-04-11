@@ -66,6 +66,10 @@ h2:hover {
     margin-left: 30px;
 }
 
+.pozic1:hover {
+    box-shadow: 5px 5px 3px 0 lightgreen;
+}
+
 .pozic {
     position: relative;
     color: red;
