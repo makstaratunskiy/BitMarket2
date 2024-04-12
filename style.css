@@ -21,6 +21,18 @@ header {
     display: block;
 }
 
+.button:hover {
+    
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+    background-image:linear-gradient(to right bottom, #36bbce, orange, #36bbce );
+   
+}
+
 nav {
     border-top: 5px solid white;
     border-bottom: 5px solid white;
@@ -34,6 +46,11 @@ nav {
     color: white;
     text-decoration: none;
     display: block;
+}
+
+.nav-link:hover {
+    color: #36bbce;
+    border-bottom: 3px dotted blue;
 }
 
 h1 {
@@ -64,10 +81,6 @@ h1::after {
 h2:hover {
     color: white;
     margin-left: 30px;
-}
-
-.pozic1:hover {
-    box-shadow: 5px 5px 3px 0 lightgreen;
 }
 
 .pozic {
@@ -166,6 +179,10 @@ h2:hover {
     width: 30px;
 }
 
+.social:hover {
+    border-bottom: 5px double orange;
+}
+
 footer {
     background-color: white;
     display: flex;
@@ -206,6 +223,10 @@ footer {
     gap: 10px
 }
 
+.f:hover {
+    color: orange;
+}
+
 .address::before {
     content: url(https://cdn-icons-png.flaticon.com/128/1756/1756719.png);
     display: inline-block;
@@ -221,5 +242,4 @@ footer {
     height: 20px;
     width: 20px;
 }
-
 
